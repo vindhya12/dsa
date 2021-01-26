@@ -1,5 +1,5 @@
 #include<stdio.h>
-int i=10;
+int i=0;
 void show()
 {
   if(i==5)return;
