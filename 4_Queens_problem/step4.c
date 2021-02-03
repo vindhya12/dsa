@@ -54,7 +54,7 @@ void main()
     {0,0,0,0},
     {0,0,0,0}
   };
-  if(isvalid(x,0,3))
+  if(isvalid(x,3,0))
   {
     x[0][3]=1;
   }
