@@ -43,7 +43,7 @@ void main()
     {0,0,0,0},
     {0,0,0,0}
   };
-  if(isvalid(x,0,3))
+  if(isvalid(x,3,3))
   {
     x[0][3]=1;
   }
