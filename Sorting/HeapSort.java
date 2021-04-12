@@ -6,7 +6,12 @@ class HeapSort
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		int x[] = new int[n];
-		//int n = x.length;
+		
+		for(int i=0;i<n;i++)
+		{
+			x[i]=sc.nextInt();
+		}
+		
 		showloop(x, n);
 		deleteDemo(x, n);
 	}
