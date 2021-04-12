@@ -1,10 +1,12 @@
+import java.util.Scanner;
 class HeapSort
 {
 	public static void main(String args[])
 	{
-		int i;
-		int x[] = {1, 2, 3, 4, 5, 6, 7};
-		int n = x.length;
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int x[] = new int[n];
+		//int n = x.length;
 		showloop(x, n);
 		deleteDemo(x, n);
 	}
